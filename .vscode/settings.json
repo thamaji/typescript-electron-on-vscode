@@ -1,0 +1,42 @@
+{
+    "terminal.integrated.allowChords": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.exclude": {
+        "**/.devcontainer/.extensions": true
+    },
+    "files.watcherExclude": {
+        "**/.devcontainer/.extensions": true
+    },
+    "search.exclude": {
+        "**/.devcontainer/.extensions": true,
+        "**/dist/**": true
+    },
+    "[typescript]": {
+        "editor.detectIndentation": false,
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[typescriptreact]": {
+        "editor.detectIndentation": false,
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "cSpell.ignorePaths": [
+        "**/.git/objects/**",
+        "**/.devcontainer/**",
+        "**/.vscode/**",
+        "**/yarn.lock"
+    ],
+    "cSpell.words": [
+        "esbuild",
+        "htmlhint",
+        "wasm"
+    ]
+}
